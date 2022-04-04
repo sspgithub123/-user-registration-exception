@@ -22,7 +22,7 @@ public class UserRegistration {
     }
 
     public boolean checkPassword(String password) {
-        return (password.matches("[a-zA-Z]{8,}"));
+        return (password.matches("^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[*.!@#$%^&(){}:'<>,.>/~`_+=|].).{8,}$"));
     }
 }
 
