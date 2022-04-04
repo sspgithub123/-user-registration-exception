@@ -5,5 +5,11 @@ package com.bridgelabz;
  * @since 03-04-2021
  */
 public class UserRegistration {
+    public boolean checkFName(String fName) {
+        /**
+         * regex pattern for FirstName
+         */
+        return (fName.matches("[A-Z][a-z]{3,}"));
+    }
 }
 
