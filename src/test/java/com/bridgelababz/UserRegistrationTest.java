@@ -16,7 +16,7 @@ public class UserRegistrationTest {
         /**
          * calling checkFName method to see firstname is valid
          */
-        boolean isFNameValid = userRegistration.checkFName("Archana");
+        boolean isFNameValid = userRegistration.checkFName("Shubahm");
         Assertions.assertTrue(isFNameValid);
     }
 
@@ -26,7 +26,7 @@ public class UserRegistrationTest {
      */
     public void testFirstNameInvalidMustReturnFalse() {
         UserRegistration userRegistration = new UserRegistration();
-        boolean isFnameValid = userRegistration.checkFName("gowda");
+        boolean isFnameValid = userRegistration.checkFName("shubham");
         Assertions.assertFalse(isFnameValid);
     }
 
@@ -51,5 +51,29 @@ public class UserRegistrationTest {
         UserRegistration userRegistration = new UserRegistration();
         boolean isLnameINValid = userRegistration.Lname("advani");
         Assertions.assertFalse(isLnameINValid);
+    }
+
+    @Test
+    /**
+     * created method testEmailId_MustReturnTrue() for true condition
+     */
+    public void testEmailId_MustReturnTrue() {
+        UserRegistration userRegistration = new UserRegistration();
+        /**
+         * calling checkEmail method to see mailId is valid
+         */
+        boolean isEmailValid = userRegistration.checkEmail("almas.ab@gmail.com");
+        Assertions.assertTrue(isEmailValid);
+    }
+
+    @Test
+    /**
+     * created method testEmailId_MustReturnFalse() for false condition
+     */
+
+    public void testEmailId_MustReturnFalse() {
+        UserRegistration userRegistration = new UserRegistration();
+        boolean isEmailInvalid = userRegistration.checkEmail("almas@.com");
+        Assertions.assertFalse(isEmailInvalid);
     }
 }
