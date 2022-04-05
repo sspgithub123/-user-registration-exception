@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bridgelababz.UserRegistrationTest" tests="32" skipped="0" failures="0" errors="0" timestamp="2022-04-05T11:21:57" hostname="LAPTOP-BGR4HLJ8" time="0.071">
+<testsuite name="com.bridgelababz.UserRegistrationTest" tests="32" skipped="0" failures="0" errors="0" timestamp="2022-04-05T11:29:39" hostname="LAPTOP-BGR4HLJ8" time="0.049">
   <properties/>
   <testcase name="givenPassWordRule4_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.013"/>
-  <testcase name="givenPasswordRule1_WhenProper_ShouldReturnTrue()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassWordRule3_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPasswordRule2_WhenProper_ShouldReturnTrue()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPasswordRule1_WhenProper_ShouldReturnTrue()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenProper_ShouldReturnTrue()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassWordRule3_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPasswordRule2_WhenProper_ShouldReturnTrue()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
   <testcase name="givenPhoneNumber_WhenNotProper_ShouldReturnFlase()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
   <testcase name="givenEmail_emptyString_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
   <testcase name="givenPasswordRule3_WhenProper_ShouldReturnTrue()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenEmail_WhenNotProper_ShouldReturnFalse()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenEmail_WhenNotProper_ShouldReturnFalse()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
   <testcase name="givenPasswordRule3_WhenNotProper_ShouldReturnFalse()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
   <testcase name="givenLastName_WhenNotProper_ShouldReturnFalse()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPasswordRule1_WhenNotProper_ShouldReturnFalse()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenFirstName_WhenNotProper_ShouldReturnFlase()" classname="com.bridgelababz.UserRegistrationTest" time="0.002"/>
-  <testcase name="givenPassWordRule4_emptyString_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.006"/>
-  <testcase name="givenEmail_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPasswordRule1_WhenNotProper_ShouldReturnFalse()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_WhenNotProper_ShouldReturnFlase()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassWordRule4_emptyString_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenEmail_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassWordRule3_emptyString_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
   <testcase name="givenPasswordRule4_WhenProper_ShouldReturnTrue()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
   <testcase name="givenPassWordRule2_emptyString_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
   <testcase name="givenLastName_WhenProper_ShouldReturnTrue()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenPassWordRule1_emptyString_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenLastName_emptyString_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.003"/>
+  <testcase name="givenPassWordRule1_emptyString_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenLastName_emptyString_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
   <testcase name="givenPasswordRule2_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
   <testcase name="givenPhoneNumber_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>
   <testcase name="givenPasswordRule1_null_ShouldThrowUserRegistrationException()" classname="com.bridgelababz.UserRegistrationTest" time="0.001"/>

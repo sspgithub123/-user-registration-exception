@@ -17,7 +17,7 @@ public class UserRegistrationTest {
     @Test
     public void givenFirstName_WhenProper_ShouldReturnTrue() {
         try {
-            boolean result = userRegistration.firstName("Nilofar");
+            boolean result = userRegistration.firstName("Shubham");
             Assert.assertEquals(true, result);
         } catch (UserRegistrationException e) {
             System.out.println(e);
@@ -27,7 +27,7 @@ public class UserRegistrationTest {
     @Test
     public void givenFirstName_WhenNotProper_ShouldReturnFlase() {
         try {
-            boolean result = userRegistration.firstName("nilofar");
+            boolean result = userRegistration.firstName("shubham");
             Assert.assertEquals(false, result);
         } catch (UserRegistrationException e) {
             System.out.println(e);
@@ -61,7 +61,7 @@ public class UserRegistrationTest {
     @Test
     public void givenLastName_WhenProper_ShouldReturnTrue() {
         try {
-            boolean result = userRegistration.lastName("Mujawar");
+            boolean result = userRegistration.lastName("Pawar");
             Assert.assertEquals(true, result);
         } catch (UserRegistrationException e) {
             System.out.println(e);
@@ -71,7 +71,7 @@ public class UserRegistrationTest {
     @Test
     public void givenLastName_WhenNotProper_ShouldReturnFalse() {
         try {
-            boolean result = userRegistration.lastName("mujawar");
+            boolean result = userRegistration.lastName("pawar");
             Assert.assertEquals(false, result);
         } catch (UserRegistrationException e) {
             System.out.println(e);
@@ -105,7 +105,7 @@ public class UserRegistrationTest {
     @Test
     public void givenEmail_WhenProper_ShouldReturnTrue() {
         try {
-            boolean result = userRegistration.email("nilofarmujawar1@gmail.com");
+            boolean result = userRegistration.email("shubhampawar1@gmail.com");
             Assert.assertEquals(true, result);
         } catch (UserRegistrationException e) {
             System.out.println(e);
@@ -150,7 +150,7 @@ public class UserRegistrationTest {
     @Test
     public void givenPhoneNumber_WhenProper_ShouldReturnTrue() {
         try {
-            boolean result = userRegistration.phoneNumber("91 8765599888");
+            boolean result = userRegistration.phoneNumber("91 8530705596");
             Assert.assertEquals(true, result);
         } catch (UserRegistrationException e) {
             System.out.println(e);
