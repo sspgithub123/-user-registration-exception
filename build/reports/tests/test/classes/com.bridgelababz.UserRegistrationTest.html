@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">2</div>
+<div class="counter">32</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.013s</div>
+<div class="counter">0.045s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,6 +63,9 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -75,16 +78,188 @@
 </tr>
 </thead>
 <tr>
-<td class="success">testFirstNameInvalidMustReturnFalse()</td>
+<td class="success">givenEmail_WhenNotProper_ShouldReturnFalse()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenEmail_WhenProper_ShouldReturnTrue()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenEmail_emptyString_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenEmail_null_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenFirstName_WhenNotProper_ShouldReturnFlase()</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenFirstName_WhenProper_ShouldReturnTrue()</td>
 <td class="success">0s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">testingFirstName()</td>
+<td class="success">givenFirstName_emptyString_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenFirstName_null_ShouldThrowUserRegistrationException()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenLastName_WhenNotProper_ShouldReturnFalse()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenLastName_WhenProper_ShouldReturnTrue()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenLastName_emptyString_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenLastName_null_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPassWordRule1_emptyString_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPassWordRule2_emptyString_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPassWordRule3_emptyString_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPassWordRule3_null_ShouldThrowUserRegistrationException()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPassWordRule4_emptyString_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPassWordRule4_null_ShouldThrowUserRegistrationException()</td>
 <td class="success">0.013s</td>
 <td class="success">passed</td>
 </tr>
+<tr>
+<td class="success">givenPasswordRule1_WhenNotProper_ShouldReturnFalse()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPasswordRule1_WhenProper_ShouldReturnTrue()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPasswordRule1_null_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPasswordRule2_WhenNotProper_ShouldReturnFalse()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPasswordRule2_WhenProper_ShouldReturnTrue()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPasswordRule2_null_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPasswordRule3_WhenNotProper_ShouldReturnFalse()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPasswordRule3_WhenProper_ShouldReturnTrue()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPasswordRule4_WhenNotProper_ShouldReturnFalse()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPasswordRule4_WhenProper_ShouldReturnTrue()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPhoneNumber_WhenNotProper_ShouldReturnFlase()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPhoneNumber_WhenProper_ShouldReturnTrue()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPhoneNumber_emptyString_ShouldThrowUserRegistrationException()</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">givenPhoneNumber_null_ShouldThrowUserRegistrationException()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
 </table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre> Input can't be Null
+Input can't be Null
+Input can't be Null
+Invalid Input
+Input can't be Null
+Invalid Input
+Input can't be Null
+Invalid Input
+Invalid Input
+Invalid Input
+Invalid Input
+Input can't be Null
+Input can't be Null
+Input can't be Null
+Invalid Input
+Invalid Input
+</pre>
+</span>
 </div>
 </div>
 <div id="footer">
@@ -94,7 +269,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.2</a> at 04-Apr-2022, 10:06:22 pm</p>
+<a href="http://www.gradle.org">Gradle 7.2</a> at 05-Apr-2022, 4:51:57 pm</p>
 </div>
 </div>
 </body>
